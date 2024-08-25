@@ -1,0 +1,308 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    margin: 0;
+    width: 100%;
+    height: 180px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    background-color: white;
+}
+.button{
+    display: flex;
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    z-index: 10;
+    padding: 10px 20px;
+    border-radius: 20px;
+    gap: 7px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo_div{
+    position: fixed;
+    top: 20px;
+}
+.view_div{
+    position: absolute;
+    left: 40%;
+    top: 20px;
+}
+.login_div{
+    position: fixed;
+    right: 100px;
+    top: 20px;
+}
+.logo {
+    width: 120px;
+    height: 40px;
+    margin-left: 100px;
+    object-fit: cover;
+}
+
+.view {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+.login {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user {
+    display: flex;
+    gap: 5px;
+    border: 1px solid rgb(218, 217, 217);
+    padding: 7px;
+    border-radius: 60px;
+}
+
+.user_img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.preferences{
+    /* width: 90%; */
+    border: 1px solid rgb(247, 247, 247) ;
+    background-color: rgb(247, 247, 247);
+    border-radius: 60px;
+    padding: 3px;
+    position: fixed;
+    top: 90px;
+    left: 25%;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.flex-para{
+    margin: 0;
+}
+.flex-input{
+    border: none;
+    background-color:rgb(247, 247, 247) ;
+}
+.search{
+    height: 12px;
+    background-color: red;
+    padding: 14px;
+    border-radius: 50%;
+}
+
+/* categories */
+
+.praveen{
+    background-color:white;
+    width: 100%;
+    height: 100px;
+    top: 170px;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 16px;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(217, 217, 217);
+    padding: 20px 20px;
+    width: 70px;
+    border-radius: 10px;
+    height: 2px;
+    
+}
+.filter-img{
+    border: 1 px solid grey;
+    width: 90px;
+    height: 20px;
+}
+.filter-text{
+    padding: 10px;
+}
+.display{
+    display: flex;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(217, 217, 217);
+    padding: 20px 20px;
+    border-radius: 10px;
+    height: 2px;
+}
+.toggle{
+    margin-left: 10px;
+}
+
+.nav-bar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    width: 65%;
+    left: 5%;
+    position: fixed;
+    background-color:white;
+    z-index: 10;
+    top: 185px;
+    padding-top: 20px;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    background-color:white;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-arrow {
+    border: none;
+    background-color: transparent;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-grow: 1;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-menu img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.nav-arrow:focus {
+    outline: none;
+}
+
+.nav-menu::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/* Cards */
+
+.card-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    position: relative;
+    top: 300px;
+}
+.Guest{
+    background-color: white;
+    padding: 8px;
+    width: 110px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    border-radius: 60px;
+}
+.heart{
+    position: absolute;
+    width: 50px;
+    top: 18px;
+    right: 0;
+}
+.card-img{
+    box-sizing: border-box;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+.card-title{
+    margin: 0;
+    font-size: 17px;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-para{
+    margin: 0;
+    color: grey;
+}
+.card-price{
+    margin: 0;
+}
+.details{
+    display: flex;
+    position: relative;
+}
+.review-div{
+    display: flex;
+    position: absolute;
+    right: 0;
+    align-items: center;
+}
+.star{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 45px;
+}
+.review{
+    position: absolute;
+    right: 10px;
+    bottom: -35px;
+}
+footer{
+    border-top: 1px solid rgb(242, 242, 242);
+    width: 100%;
+    background-color: grey;
+}
+.copyright{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb | Holiday rentals, Cabins, Hotels...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <button class="button">Show Map<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+        </svg></button>
+        <header class="header">
+                <div class="head">
+                    <div class="logo_div">
+                        <img src="Images/Airbnb.png" alt="Airbnb Logo" class="logo">
+                    </div>
+                    <div class="view_div">
+                        <nav class="view">
+                            <p style="font-weight: bold;">Stay</p>
+                            <p>Experience</p>
+                        </nav>
+                    </div>
+                    <div class="preferences">
+                        <div class="flex">
+                            <div class="flex-box">
+                                <p class="flex-para">Where</p>
+                                <input class="flex-input" type="text" placeholder="Search destinations">
+                            </div>
+                            <div class="flex-box">
+                                <p class="flex-para">Checkin</p>
+                                <input class="flex-input" type="text" placeholder="Add dates">
+                            </div>
+                            <div class="flex-box">
+                                <p class="flex-para">Checkout</p>
+                                <input class="flex-input" type="text" placeholder="Add dates">
+                            </div>
+                            <div class="flex-box">
+                                <p class="flex-para">Who</p>
+                                <input class="flex-input" type="text" placeholder="Add guests">
+                            </div>
+                            <img src="Images/Search.svg" alt="" class="search">
+                            </div>
+                    </div>
+                    <div class="login_div">
+                        <div class="login">
+                            <p style="font-size: 15px;">Airbnb your home</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+                            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
+                            </svg>
+                            <div class="user">
+                                <img class="user_img" src="Images/3lines.svg" alt="User Icon">
+                                <img class="user_img" src="Images/Person icon.svg" alt="User Icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <div class="praveen">
+                <div>
+                    <nav class="nav-bar">
+                        <button class="nav-arrow">&#9664;</button> 
+                        <ul class="nav-menu">
+                            <li><a href="#"><img src="Images/i1.jpeg" alt="Design">Farms</a></li>
+                            <li><a href="#"><img src="Images/i2.jpeg" alt="Arctic">Rooms</a></li>
+                            <li><a href="#"><img src="Images/i3.jpeg" alt="Containers">Cafe</a></li>
+                            <li><a href="#"><img src="Images/i4.jpeg" alt="Vineyards">Home</a></li>
+                            <li><a href="#"><img src="Images/i5.jpeg" alt="Golfing">Mansions</a></li>
+                            <li><a href="#"><img src="Images/i6.jpeg" alt="Treehouses">Treehouses</a></li>
+                            <li><a href="#"><img src="Images/i7.jpeg" alt="Off-the-grid">House Beach</a></li>
+                            <li><a href="#"><img src="Images/i8.jpeg" alt="New">House pool</a></li>
+                            <li><a href="#"><img src="Images/i9.jpeg" alt="Towers">Towers</a></li>
+                            <li><a href="#"><img src="Images/i10.jpeg" alt="A-frames">Amazon pools</a></li>
+                            <li><a href="#"><img src="Images/i11.jpeg" alt="Tiny homes">Tiny homes</a></li>
+                            <li><a href="#"><img src="Images/i1.jpeg" alt="Caves">Caves</a></li>
+                            <li><a href="#"><img src="Images/i2.jpeg" alt="Arctic">Arctic</a></li>
+                            <li><a href="#"><img src="Images/i3.jpeg" alt="Containers">Containers</a></li>
+                            <li><a href="#"><img src="Images/i4.jpeg" alt="Vineyards">Vineyards</a></li>
+                            <li><a href="#"><img src="Images/i5.jpeg" alt="Golfing">Golfing</a></li>
+                            <li><a href="#"><img src="Images/i6.jpeg" alt="Treehouses">Treehouses</a></li>
+                            <li><a href="#"><img src="Images/i7.jpeg" alt="Off-the-grid">Off-the-grid</a></li>
+                            <li><a href="#"><img src="Images/i8.jpeg" alt="New">New</a></li>
+                            <li><a href="#"><img src="Images/i9.jpeg" alt="Towers">Towers</a></li>
+                        </ul>
+                        <button class="nav-arrow">&#9654;</button> 
+                    </nav>
+                </div>
+                <div class="filter">
+                    <img src="Images/Filter.svg" alt="" class="filter-img">
+                    <p class="filter-text">Filter</p>
+                </div>
+                <div class="display">
+                    <p>Display total before taxes</p>
+                    <svg class="toggle" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-toggle-off" viewBox="0 0 16 16">
+                        <path d="M11 4a4 4 0 0 1 0 8H8a5 5 0 0 0 2-4 5 5 0 0 0-2-4zm-6 8a4 4 0 1 1 0-8 4 4 0 0 1 0 8M0 8a5 5 0 0 0 5 5h6a5 5 0 0 0 0-10H5a5 5 0 0 0-5 5"/>
+                    </svg>
+                </div>
+        </div>
+        <section class="section1">
+            <div class="card-items">
+                <div class="card">
+                    <img src="Images/d1.webp" alt="" class="card-img">
+                    <div>
+                        <p class="Guest">Guest Favourite</p>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">Rain, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">4.89</p>
+                        </div>
+                    </div>
+                    <p class="card-para">531 Kilometers away</p>
+                    <p class="card-para">7-12 Oct</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 4,599</span> night</p>
+                </div>
+                <div class="card">
+                    <img src="Images/d2.webp" alt="" class="card-img">
+                    <div>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">Margao, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">4.86</p>
+                        </div>
+                    </div>
+                    <p class="card-para">531 Kilometres away</p>
+                    <p class="card-para">1-6 sep</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 3,994</span> night</p>
+                </div>
+                <div class="card">
+                    <img src="Images/d3.webp" alt="" class="card-img">
+                    <div>
+                        <p class="Guest">Guest Favourite</p>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">Siolim, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">4.86</p>
+                        </div>
+                    </div>
+                    <p class="card-para">538 Kilometres away</p>
+                    <p class="card-para">15-20 Sep</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 11,650</span> night</p>
+                </div>
+                <div class="card">
+                    <img src="Images/d4.webp" alt="" class="card-img">
+                    <div>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">Bengaluru Urban, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">4.93</p>
+                        </div>
+                    </div>
+                    <p class="card-para">475 Kilometres away</p>
+                    <p class="card-para">1-6 Sep</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 3,623</span> night</p>
+                </div>
+                <div class="card">
+                    <img src="Images/d5.webp" alt="" class="card-img">
+                    <div>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">Mahabaleshwar, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">4.90</p>
+                        </div>
+                    </div>
+                    <p class="card-para">502 Kilometres away</p>
+                    <p class="card-para">4-9 Oct</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 5,160</span> night</p>
+                </div>
+                <div class="card">
+                    <img src="Images/d6.webp" alt="" class="card-img">
+                    <div>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">Varca, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">4.76</p>
+                        </div>
+                    </div>
+                    <p class="card-para">539 Kilometres away</p>
+                    <p class="card-para">1-6 Sep</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 6,080</span> night</p>
+                </div>
+                <div class="card">
+                    <img src="Images/d7.webp" alt="" class="card-img">
+                    <div>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">Vagator, Anjuna, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">4.65</p>
+                        </div>
+                    </div>
+                    <p class="card-para">541 Kilometres away</p>
+                    <p class="card-para">1-6 Sep</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 11,987</span> night</p>
+                </div>
+                <div class="card">
+                    <img src="Images/d8.webp" alt="" class="card-img">
+                    <div>
+                        <p class="Guest">Guest Favourite</p>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">Hyderabad, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">4.34</p>
+                        </div>
+                    </div>
+                    <p class="card-para">18 Kilometres away</p>
+                    <p class="card-para">1-6 Sep</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 14,976</span> night</p>
+                </div>
+                <div class="card">
+                    <img src="Images/d9.webp" alt="" class="card-img">
+                    <div>
+                        <p class="Guest">Guest Favourite</p>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">Panchgani, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">4.65</p>
+                        </div>
+                    </div>
+                    <p class="card-para">496 Kilometres away</p>
+                    <p class="card-para">1-6 Sep</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 4,755</span> night</p>
+                </div>
+                <div class="card">
+                    <img src="Images/d10.webp" alt="" class="card-img">
+                    <div>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">Hyderabad, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">4.66</p>
+                        </div>
+                    </div>
+                    <p class="card-para">27 Kilometres away</p>
+                    <p class="card-para">7-14 Oct</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 20,555</span> night</p>
+                </div>
+                <div class="card">
+                    <img src="Images/d11.webp" alt="" class="card-img">
+                    <div>
+                        <p class="Guest">Guest Favourite</p>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">South Goa, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">4.63</p>
+                        </div>
+                    </div>
+                    <p class="card-para">567 Kilometres away</p>
+                    <p class="card-para">1-6 Sep</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 8,102</span> night</p>
+                </div>
+                <div class="card">
+                    <img src="Images/d12.webp" alt="" class="card-img">
+                    <div>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">Hukkunda, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">4.72</p>
+                        </div>
+                    </div>
+                    <p class="card-para">539 Kilometres away</p>
+                    <p class="card-para">1-6 Sep</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 1,614</span> night</p>
+                </div>
+                <div class="card">
+                    <img src="Images/d13.webp" alt="" class="card-img">
+                    <div>
+                        <p class="Guest">Guest Favourite</p>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">Panchgani, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">4.78</p>
+                        </div>
+                    </div>
+                    <p class="card-para">498 Kilometres away</p>
+                    <p class="card-para">1-6 Sep</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 2,084</span> night</p>
+                </div>
+                <div class="card">
+                    <img src="Images/d14.webp" alt="" class="card-img">
+                    <div>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">Chevella, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">4.34</p>
+                        </div>
+                    </div>
+                    <p class="card-para">345 Kilometres away</p>
+                    <p class="card-para">1-6 Sep</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 12,477</span> night</p>
+                </div>
+                <div class="card">
+                    <img src="Images/d15.webp" alt="" class="card-img">
+                    <div>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">Baindur, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">3.54</p>
+                        </div>
+                    </div>
+                    <p class="card-para">566 Kilometres away</p>
+                    <p class="card-para">1-6 Sep</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 9,144</span> night</p>
+                </div>
+                <div class="card">
+                    <img src="Images/d16.webp" alt="" class="card-img">
+                    <div>
+                        <p class="Guest">Guest Favourite</p>
+                        <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+                    </div>
+                    <div class="details">
+                        <h1 class="card-title">Menasi, India</h1>
+                        <div class="review-div">
+                            <img src="Images/start.svg" alt="" class="star">
+                            <p class="review">4.22</p>
+                        </div>
+                    </div>
+                    <p class="card-para">476 Kilometres away</p>
+                    <p class="card-para">2-7 Sep</p>
+                    <p class="card-price"><span style="font-weight: bold;">&#8377 13,855</span> night</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div style="margin-top: 350px;">
+        <footer>
+            <div class="copyright">
+                <p>&copy 2024 Airbnb, Inc.</p>
+                <p>Privacy</p>
+                <p>Terms</p>
+                <p>Sitemap</p>
+                <p>Company details</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // Wait until the DOM is fully loaded
+        document.addEventListener("DOMContentLoaded", function() {
+            const navMenu = document.querySelector('.nav-menu');  // Get the navigation menu
+            const leftArrow = document.querySelector('.nav-arrow:first-child');  // Left arrow button
+            const rightArrow = document.querySelector('.nav-arrow:last-child');  // Right arrow button
+    
+            // Function to scroll left
+            leftArrow.addEventListener('click', () => {
+                navMenu.scrollBy({
+                    left: -200,  // Adjust the scroll amount (pixels)
+                    behavior: 'smooth'  // Smooth scrolling effect
+                });
+            });
+    
+            // Function to scroll right
+            rightArrow.addEventListener('click', () => {
+                navMenu.scrollBy({
+                    left: 200,  // Adjust the scroll amount (pixels)
+                    behavior: 'smooth'  // Smooth scrolling effect
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
